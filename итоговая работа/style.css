@@ -1,0 +1,73 @@
+
+body {
+    display: grid;
+    font-size: 100%;
+    background: linear-gradient(169deg, rgb(77, 0, 80) 0%, rgb(138, 8, 143) 43%, rgb(73, 5, 161) 100%);
+    height: 100vh;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+h2 {
+    color: aliceblue;
+}
+span {
+    color: rgb(255, 108, 108);
+    font-size: 120%;
+}
+
+#chat {
+    max-height: 70vh;
+    min-height: 70vh;
+    width: 70vw;
+    overflow-y:scroll;
+    color: aliceblue;
+
+}
+
+#name {
+    height: auto;
+    width: 60px;
+    background-color: rgba(0,0,0,0.0);
+    color: bisque;
+}
+
+
+
+#message {
+    
+    width: 300px;
+    background-color: rgba(0,0,0,0.0);
+    color: bisque;
+    
+}
+
+#button {
+    width: 70px;
+    height: 60px;
+    border-radius: 15px;
+
+}
+
+#qwer {
+
+height: auto;
+}
+
+#up {
+    display: flex;
+    gap: 10px;
+
+}
+
+.marquee {
+    width: 35vw;
+    padding: 10px;
+    margin-left: 10px;
+    color: rgb(255, 227, 184);
+}
+#radiobells_container {
+    width: 30vw;
+}
