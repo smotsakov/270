@@ -21,7 +21,7 @@ span {
 #chat {
     max-height: 70vh;
     min-height: 70vh;
-    width: 70vw;
+    width: 80vw;
     overflow-y:scroll;
     color: aliceblue;
 
@@ -38,7 +38,7 @@ span {
 
 #message {
     
-    width: 300px;
+    width: 50vw;
     background-color: rgba(0,0,0,0.0);
     color: bisque;
     
@@ -70,4 +70,21 @@ height: auto;
 }
 #radiobells_container {
     width: 30vw;
+}
+
+p {
+    background-color: rgb(121, 37, 124);
+    margin: 3px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px;
+    /* border-style: inset; */
+    box-shadow: 3px 3px 3px rgb(59, 0, 66);
+    width: fit-content;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 120%;
+    font-family:cursive;
+    letter-spacing: 2px;
+    
 }
